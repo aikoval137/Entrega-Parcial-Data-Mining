@@ -3,3 +3,4 @@ Se realizó un análisis predictivo y exploratorio de  "MDB 5000 Movie Dataset".
 
 1. movie_metadata: representa la base de datos inicial descargada
 2. movie_FINAL: presenta la base de datos final luego de un proceso de conexión con el API de TMDB
+3. tratamiento_inicial_datos: presenta el análisis preliminar de la base de datos original (movie_metadata) en el que se calcula la proporción de nulos de "gross" y "budget"
