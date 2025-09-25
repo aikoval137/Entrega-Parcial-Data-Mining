@@ -6,5 +6,6 @@ Se realizó un análisis predictivo y exploratorio de  "MDB 5000 Movie Dataset".
 3. tratamiento_inicial_datos: presenta el análisis preliminar de la base de datos original (movie_metadata) en el que se calcula la proporción de nulos de "gross" y "budget"
 4. limpieza_general: se conecta la base inicial con el API, se eliminan duplicados y se calculan las nuevas proporciones de nulos (se opta por eliminarlos, considerando que estas proporciones son significativamente menores).
 5. PCA: se desarrolla el PCA de movie_FINAL
-6.   
-7. RANDOM_FOREST:imdb_score. Se desarrolla el Random Forest
+6. NMF: se desarrolla NMF de la columna "keywords"
+7. Regresión Lineal: Se desarrolla la Regresión Lineal para predecir la recaudación de la película (gross).   
+8. RANDOM_FOREST:imdb_score. Se desarrolla el Random Forest para predecir la categoría de película de acuerdo a la calificación IMDb (Not Good, Neutral, Good)
